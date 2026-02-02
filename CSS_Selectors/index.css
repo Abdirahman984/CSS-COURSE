@@ -1,0 +1,76 @@
+   /* unversal selctors */
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   /* <!--Type selectors or tag selectors--> */
+   body{
+    background-color:deeppink;
+    color: white;
+    text-transform: capitalize;
+   }
+   header{
+    background-color: rgb(123, 102, 102);
+    color: white;
+   }
+   nav ul li{
+    list-style-type: none;
+   }
+   a{
+    text-decoration: none;
+    color: white;
+   }
+   h1,h2,h3{
+    text-align: center;
+   }
+
+   h1 {
+    text-align: center;
+   }
+   
+    /* <!--class and id selectors--> */
+    .section{
+      background-color: blue;  
+      padding: 10px;
+      font-family: sans-serif;
+
+    }
+    #food{
+      list-style-type: none;  
+      color: deeppink;
+    }
+    
+    /* Grouping selectors */
+    main h4, h5, p{
+        background-color: chartreuse;
+        padding: 5px;
+
+    }
+/* 
+    CSS Pseudo-classes */
+    button{
+       padding: 10px 5px; 
+       background-color: green;
+       border: none;
+       border-radius: 40px;
+       width: 200px;
+       font-size: 20px;
+       color: white;
+       text-transform: capitalize;
+    }
+     :hover button{
+        background-color: lightpink;
+        color: red;
+    }
+    form {
+        text-transform: capitalize;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+
+    }
+     input:focus {
+        background-color: green;
+        color: aqua;
+    }
